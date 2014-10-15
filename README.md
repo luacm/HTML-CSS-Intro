@@ -38,18 +38,18 @@ Style sheets are comprised of *rules*. A *rule* consists of one or more *selecto
 Selectors target elements and declaration blocks modify the style of those elements. Let's say you want to change all the text in ```<p>Hello World!</p>``` to blue and 35px. This code would accomplish that: 
 
 ```p {
-font-size: 15px;
+font-size: 35px;
 color: red;
 }```
 
-To take a step back, you might be wondering where to put this code. You can either declare it between ```<style> </style> ``` tags in your header, inline: ```<p style="color: red; font-size: 15px;" ```, or in a separate file, which is the most common.
+To take a step back, you might be wondering where to put this code. You can either declare it between ```<style> </style> ``` tags in your header, inline: ```<p style="color: red; font-size: 35px;" ```, or in a separate file, which is the most common.
 
 To create the file needed, open your favorite text editor (which should be [Sublime](http://www.sublimetext.com/) by now). Create a new file and save it as style.css. If you're using a halfway-decent text editor, you'll notice different colors based on the style.
 
 Next, implement the style change listed above:
 
 ```p {
-font-size: 15px;
+font-size: 35px;
 color: red;
 }```
 
